@@ -1,0 +1,102 @@
+body {
+  background: #bdc3c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c3e50,
+    #bdc3c7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c3e50,
+    #bdc3c7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.form {
+  background-color: white;
+  border-radius: 5px;
+  width: 550px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.form-body {
+  text-align: left;
+  padding: 10px 10px;
+}
+
+.form-body > * {
+  padding: 5px;
+}
+
+.form__label {
+  width: 40%;
+  font-weight: bold;
+}
+
+.form__input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 5px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+#registerbtn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 10px;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  opacity: 0.9;
+}
+#clearbtn {
+  background-color: #ee2f2f;
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 10px;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  opacity: 0.9;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.error {
+  text-align: center;
+  border: 1px solid transparent;
+  font-size: small;
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  border-radius: 4px;
+  /* display: block; */
+  /* background-color: #ee2f2f; */
+  /* color: white; */
+  padding: 0px;
+}
+
+.error p {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.success {
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  font-weight: bold;
+}
